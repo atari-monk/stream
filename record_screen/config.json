@@ -35,7 +35,7 @@
 			{ "flag": "-framerate", "value": "30" },
 			{ "flag": "-c:a", "value": "aac" },
 			{ "flag": "-b:a", "value": "96k" },
-			{ "flag": "-t", "value": "30" },
+			{ "flag": "-t", "value": "780" },
 			{ "flag": "-y" },
 			{ "value": "output.mp4" }
 		]
