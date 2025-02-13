@@ -1,0 +1,21 @@
+{
+    "presets": {
+        "laptop_screen_capture": [
+            { "flag": "-f", "value": "gdigrab" },
+            { "flag": "-i", "value": "desktop" },
+            { "flag": "-f", "value": "dshow" },
+            {
+                "flag": "-i",
+                "value": "audio=\"Miks stereo (Realtek(R) Audio)\""
+            },
+            { "flag": "-c:v", "value": "libx264" },
+            { "flag": "-preset", "value": "veryfast" },
+            { "flag": "-crf", "value": "28" },
+            { "flag": "-b:v", "value": "800k" },
+            { "flag": "-s", "value": "1280x720" },
+            { "flag": "-c:a", "value": "aac" },
+            { "flag": "-b:a", "value": "128k" },
+            { "flag": "output", "value": "output1.mp4" }
+        ]
+    }
+}
