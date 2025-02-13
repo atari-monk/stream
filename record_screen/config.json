@@ -1,0 +1,43 @@
+{
+	"presets": {
+		"laptop_screen_capture_1": [
+			{ "flag": "-f", "value": "gdigrab" },
+			{ "flag": "-i", "value": "desktop" },
+			{ "flag": "-f", "value": "dshow" },
+			{
+				"flag": "-i",
+				"value": "audio=Miks stereo (Realtek(R) Audio)"
+			},
+			{ "flag": "-c:v", "value": "libx264" },
+			{ "flag": "-preset", "value": "veryfast" },
+			{ "flag": "-crf", "value": "24" },
+			{ "flag": "-b:v", "value": "500k" },
+			{ "flag": "-s", "value": "854x480" },
+			{ "flag": "-c:v", "value": "h264_qsv" },
+			{ "flag": "-c:a", "value": "aac" },
+			{ "flag": "-b:a", "value": "96k" },
+			{ "flag": "-t", "value": "30" },
+			{ "flag": "-y" },
+			{ "value": "output.mp4" }
+		],
+		"desktop_screen_capture_1": [
+			{ "flag": "-f", "value": "gdigrab" },
+			{ "flag": "-i", "value": "desktop" },
+			{ "flag": "-f", "value": "dshow" },
+			{
+				"flag": "-i",
+				"value": "audio=Stereo Mix (Realtek High Definition Audio)"
+			},
+			{ "flag": "-c:v", "value": "h264_nvenc" },
+			{ "flag": "-preset", "value": "p7" },
+			{ "flag": "-b:v", "value": "3500k" },
+			{ "flag": "-s", "value": "1280x720" },
+			{ "flag": "-framerate", "value": "30" },
+			{ "flag": "-c:a", "value": "aac" },
+			{ "flag": "-b:a", "value": "96k" },
+			{ "flag": "-t", "value": "30" },
+			{ "flag": "-y" },
+			{ "value": "output.mp4" }
+		]
+	}
+}
