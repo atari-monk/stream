@@ -6,7 +6,7 @@
             { "flag": "-f", "value": "dshow" },
             {
                 "flag": "-i",
-                "value": "audio=\"Miks stereo (Realtek(R) Audio)\""
+                "value": "audio=Miks stereo (Realtek(R) Audio)"
             },
             { "flag": "-c:v", "value": "libx264" },
             { "flag": "-preset", "value": "veryfast" },
@@ -15,7 +15,7 @@
             { "flag": "-s", "value": "1280x720" },
             { "flag": "-c:a", "value": "aac" },
             { "flag": "-b:a", "value": "128k" },
-            { "flag": "output", "value": "output1.mp4" }
+            { "value": "output1.mp4" }
         ]
     }
 }
