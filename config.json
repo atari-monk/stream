@@ -1,6 +1,6 @@
 {
     "presets": {
-        "laptop_screen_capture": [
+        "laptop_screen_capture_low": [
             { "flag": "-f", "value": "gdigrab" },
             { "flag": "-i", "value": "desktop" },
             { "flag": "-f", "value": "dshow" },
@@ -15,7 +15,9 @@
             { "flag": "-s", "value": "1280x720" },
             { "flag": "-c:a", "value": "aac" },
             { "flag": "-b:a", "value": "128k" },
-            { "value": "output1.mp4" }
+            { "flag": "-t", "value": "30" },
+            { "flag": "-y" },
+            { "value": "output.mp4" }
         ]
     }
 }

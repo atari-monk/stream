@@ -1,10 +1,10 @@
 from ffmpeg import build_ffmpeg_command, run_ffmpeg_command
 
 def main():
-    preset_name = input("Enter preset name (press Enter for default 'laptop_screen_capture'): ")
+    preset_name = input("Enter preset name (press Enter for default 'laptop_screen_capture_low'): ")
     
     if not preset_name:
-        preset_name = 'laptop_screen_capture'
+        preset_name = 'laptop_screen_capture_low'
 
     try:
         command = build_ffmpeg_command(preset_name)

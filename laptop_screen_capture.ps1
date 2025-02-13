@@ -10,7 +10,9 @@ $flags = @(
     "-s", "1280x720",
     "-c:a", "aac",
     "-b:a", "128k",
-    "output1.mp4"
+    "-t", "10",
+    "-y",
+    "output.mp4"
 )
 
 ffmpeg @flags
